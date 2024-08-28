@@ -5,7 +5,7 @@ const container = document.querySelector('#container');
 const baseURL = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/'
 
 //pokemonは151匹いるのでその分ループを回す
-for (let i = 1; i <= 151; i++) {
+for (let i = 1; i <= 140; i++) {
     //divの中にimgタグとspanが入るようにしたい
     const pokemon = document.createElement('div');
     //divに対してclass(pokemon)を割り当てる
